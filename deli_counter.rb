@@ -1,6 +1,6 @@
 
 katz_deli = []
-require 'pry'
+
 def line(x)
   line_array = []
   if x.length == []
