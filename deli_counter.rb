@@ -1,11 +1,11 @@
 
 katz_deli = []
-
+require 'pry'
 def line(x)
   line_array = []
   if x.length == []
     puts "The line is currently empty."
-    
+    binding.pry
   else
     x.each.with_index(1) do |name, index|
       line_array.push("#{index}. #{name}")
